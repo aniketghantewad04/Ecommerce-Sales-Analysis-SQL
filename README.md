@@ -241,4 +241,14 @@ INSERT INTO Shipping_Details (order_id, address, city, state, zipcode, country) 
 Select * from Shipping_Details;
 ```
 
-## 4. Data Analysis & Findings
+## Data Analysis & Findings
+
+**Q.1 Write a SQL query to find the total number of orders placed by each customer**
+Identify how many orders each customer has placed.
+```sql
+SELECT o.customer_id,concat(first_name,' ',last_name) as full_name,COUNT(order_id) AS total_orders
+FROM orders as o
+join customers as c
+on o.customer_id=c.customer_id
+GROUP BY customer_id;
+```
