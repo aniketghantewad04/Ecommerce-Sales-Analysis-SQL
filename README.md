@@ -41,3 +41,80 @@ Established foreign key relationships to maintain data integrity between product
 **Data Population**  :
 Inserted realistic sample data across all tables to represent actual e-commerce transactions and customer behavior.
 
+## Table Creation 
+```sql
+-- Create the categories table
+CREATE TABLE Categories (
+    category_id INT PRIMARY KEY AUTO_INCREMENT,
+    category_name VARCHAR(255)
+);
+
+-- Create the products table
+CREATE TABLE Products (
+    product_id INT PRIMARY KEY AUTO_INCREMENT,
+    product_name VARCHAR(255),
+    description TEXT,
+    price DECIMAL(10, 2),
+    stock_quantity INT,
+    category_id INT,
+    FOREIGN KEY (category_id) REFERENCES Categories(category_id)
+);
+
+-- Create the customers table
+CREATE TABLE Customers (
+    customer_id INT PRIMARY KEY AUTO_INCREMENT,
+    first_name VARCHAR(255),
+    last_name VARCHAR(255),
+    email VARCHAR(255),
+    phone VARCHAR(20),
+    address VARCHAR(255)
+);
+
+-- Create the orders table
+CREATE TABLE Orders (
+    order_id INT PRIMARY KEY AUTO_INCREMENT,
+    customer_id INT,
+    order_date DATE,
+    total_amount DECIMAL(10, 2),
+    status ENUM('pending', 'processing', 'shipped', 'delivered') DEFAULT 'pending',
+    FOREIGN KEY (customer_id) REFERENCES Customers(customer_id)
+);
+
+-- Create the order_items table
+CREATE TABLE Order_Items (
+    order_item_id INT PRIMARY KEY AUTO_INCREMENT,
+    order_id INT,
+    product_id INT,
+    quantity INT,
+    price DECIMAL(10, 2),
+    FOREIGN KEY (order_id) REFERENCES Orders(order_id),
+    FOREIGN KEY (product_id) REFERENCES Products(product_id)
+);
+
+-- Create the shipping_details table
+CREATE TABLE Shipping_Details (
+    shipping_id INT PRIMARY KEY AUTO_INCREMENT,
+    order_id INT,
+    address VARCHAR(255),
+    city VARCHAR(100),
+    state VARCHAR(100),
+    zipcode VARCHAR(20),
+    country VARCHAR(100),
+    FOREIGN KEY (order_id) REFERENCES Orders(order_id)
+);
+
+```
+**Insert Records into Categories Table**
+```sql
+INSERT INTO Categories (category_name) VALUES 
+('Electronics'),
+('Clothing'),
+('Books'),
+('Furniture'),
+('Toys'),
+('Sports'),
+('Beauty'),
+('Food'),
+('Accessories'),
+('Home Decor');
+```
