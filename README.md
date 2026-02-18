@@ -244,7 +244,7 @@ Select * from Shipping_Details;
 ## Data Analysis & Findings
 
 **Q.1 Write a SQL query to find the total number of orders placed by each customer**
-Identify how many orders each customer has placed.
+
 ```sql
 SELECT o.customer_id,concat(first_name,' ',last_name) as full_name,COUNT(order_id) AS total_orders
 FROM orders as o
