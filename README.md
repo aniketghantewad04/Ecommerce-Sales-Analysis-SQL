@@ -19,4 +19,4 @@ This project demonstrates the design and analysis of an E-Commerce database usin
 - Extract insights to support data-driven decision-making.
 
 ## Project Structure
-![E-Commerce Sales Analysis](https://github.com/aniketghantewad04/Ecommerce-Sales-Analysis-SQL/blob/main/structure.png)
+![E-Commerce Sales Analysis](https://github.com/aniketghantewad04/Ecommerce-Sales-Analysis-SQL/blob/main/Structure.png)
