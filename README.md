@@ -17,3 +17,6 @@ This project demonstrates the design and analysis of an E-Commerce database usin
 - Perform data analysis to answer business-driven questions.
 - Identify top customers, products, and revenue-generating categories.
 - Extract insights to support data-driven decision-making.
+
+## Project Structure
+![E-Commerce Sales Analysis](https://github.com/aniketghantewad04/Ecommerce-Sales-Analysis-SQL/blob/main/structure.png)
