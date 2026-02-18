@@ -41,7 +41,7 @@ Established foreign key relationships to maintain data integrity between product
 **Data Population**  :
 Inserted realistic sample data across all tables to represent actual e-commerce transactions and customer behavior.
 
-### Table Creation 
+## Table Creation :
 ```sql
 -- Create the categories table
 CREATE TABLE Categories (
@@ -241,4 +241,4 @@ INSERT INTO Shipping_Details (order_id, address, city, state, zipcode, country) 
 Select * from Shipping_Details;
 ```
 
-### 4. Data Analysis & Findings
+## 4. Data Analysis & Findings
