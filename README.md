@@ -21,8 +21,8 @@ This project demonstrates the design and analysis of an E-Commerce database usin
 ## Project Structure
 ![E-Commerce Sales Analysis](https://github.com/aniketghantewad04/Ecommerce-Sales-Analysis-SQL/blob/main/Structure.png)
 
-**Database Creation & Schema Design**
-**- Database Creation**: Created an E-Commerce database named ecommerce_db to simulate real-world online retail operations.
+## Database Creation & Schema Design
+**- Database Creation**: Created an E=commerce database named `ecommerce_db` to simulate real-world online retail operations.
 **- Table Design**: Designed and implemented normalized relational tables for:
 Categories
 Products
