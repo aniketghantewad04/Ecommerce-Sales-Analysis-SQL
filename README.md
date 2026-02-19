@@ -221,20 +221,23 @@ JOIN categories c
 ON p.category_id = c.category_id
 GROUP BY c.category_name;
 ```
-
 ## Reports
 
--**Database Schema**: Designed and implemented normalized tables with proper relationships between customers, products, orders, and categories.
--**Data Analysis**: Generated insights on sales trends, customer purchasing behavior, category-wise performance, and city-wise revenue distribution.
--**Summary Reports**: Created aggregated reports highlighting top-selling products, high-revenue categories, and top customers.
+- **Database Schema**: Designed and implemented normalized tables with proper relationships between customers, products, orders, and categories.  
+- **Data Analysis**: Generated insights on sales trends, customer purchasing behavior, category-wise performance, and city-wise revenue distribution.  
+- **Summary Reports**: Created aggregated reports highlighting top-selling products, high-revenue categories, and top customers.  
+
 
 ## Conclusion
 
-This project demonstrates practical SQL skills by analyzing real-world e-commerce data to extract meaningful business insights related to sales, customers, products, and orders.
-The analysis helps stakeholders make data-driven decisions related to marketing, inventory management, and customer retention strategies.
+This project demonstrates practical SQL skills by analyzing real-world e-commerce data to extract meaningful business insights related to sales, customers, products, and orders.  
+The analysis supports data-driven decision-making in areas such as marketing, inventory management, and customer retention.
 
 
 ## How to Use
 
 1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/aniketghantewad04/Ecommerce-Sales-Analysis-SQL.git
+
 
