@@ -1,0 +1,13 @@
+customer_id,first_name,last_name,email,phone,address
+1,John,Dcruz,john.d@xyz.com,123-456-7890,"123 Main St, City"
+2,Daren,Smith,daren.smith@gmail.com,987-654-3210,"13th Lane, Thakur Complex"
+3,Alia,Ahuja,alia.ahuja@yahoo.com,555-123-4567,"7th cross rd, Manori"
+4,Bobby,Rawat,bob.rawat@yahoo.com,111-222-3333,"101 Lane Mohd Rd, Satara"
+5,Premnath,Dalai,prem.d@gmail.com,444-555-6666,"222 Cedar St, Beach"
+6,Michael,Jones,michael.jones@xyz.com,777-888-9999,"13th Church St, Kormangala"
+7,Sarah,Shah,sarah.shah@yahoo.com,999-999-9999,"R.no 12 SP rd, Wadala"
+8,Rahul,Joshi,rahul.joshi@gamil.com,888-888-8888,"Sector-3 , Kandivali(E)"
+9,Karan,Gautam,karan.g@yahoo.com,666-666-6666,"66th lane, Malad(W)"
+10,Kiran,Khamitkar,kiran.khamitakr@yahoo.com,606-006-6262,"Tulsi Baug, Pune"
+11,Rashi,Jain,rashi.jain@yahoo.com,144-905-6167,"Sector 15, Panvel"
+12,Jay,Aryan,jay.a@gmail.com,222-333-4444,"Block - 3, Mahad"

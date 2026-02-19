@@ -1,0 +1,11 @@
+shipping_id,order_id,address,city,state,zipcode,country
+1,1,"123 Main St",City,Maharashtra,12345,India
+2,2,"13th Lane, Thakur Complex",Mumbai,Maharashtra,67890,India
+3,3,"7th Cross rd",Village,Maharashtra,13579,India
+4,4,"101 Lane, Mohd Rd",Satara,Maharashtra,24680,India
+5,5,"222 Cedar St","Gorai Beach",Maharashtra,97531,India
+6,6,"13th Church St",Bangalore,Karnataka,86420,India
+7,7,"R. NO 12 SP rd",Mumbai,Maharshtra,31415,India
+8,8,"Sector-3, Kandivali(E)",Mumbai,Maharashtra,27182,India
+9,9,"66th lane, Malad(W)",Mumbai,Maharashtra,53589,India
+10,10,"Sector 13, Belapur","Navi Mumbai",Maharashtra,97932,India
