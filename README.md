@@ -247,4 +247,11 @@ The analysis supports data-driven decision-making in areas such as marketing, in
 
 Execute queries in MySQL Workbench or any SQL-compatible database tool.
 
-Thank you for your interest in this project!
+## Author & Contact
+
+**Aniket Ghantewad**
+**Aspiring Data Analyst**
+📧 **Email**: ghantewadaniket@gmail.com  
+🔗 **LinkedIn**: https://www.linkedin.com/in/aniketghantewad
+
+Thank you for taking the time to explore this project.
