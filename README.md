@@ -208,7 +208,7 @@ order by Total_sales desc
 limit 3;
 ```
 
-**Q.10 Write a SQL query to find the total number of customers who purchased items from each category:**
+**Q.10 Write a SQL query to find the total number of customers who purchased items from each category ?**
 
 ```sql
 SELECT c.category_name,COUNT(distinct o.customer_id) AS total_customers
