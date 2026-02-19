@@ -249,7 +249,7 @@ Select * from Shipping_Details;
 
 ## Data Analysis & Findings
 
-**Q.1 Write a SQL query to find the total number of orders placed by each customer**
+**Q.1 Write a SQL query to find the total number of orders placed by each customer ?**
 
 ```sql
 SELECT o.customer_id,concat(first_name,' ',last_name) as full_name,COUNT(order_id) AS total_orders
@@ -257,4 +257,11 @@ FROM orders as o
 join customers as c
 on o.customer_id=c.customer_id
 GROUP BY customer_id;
+```
+**Q.2. Write a SQL query to retrieve all orders placed in 2024 ?**
+
+```sql
+select *
+from orders
+where year(order_date)=2024;
 ```
