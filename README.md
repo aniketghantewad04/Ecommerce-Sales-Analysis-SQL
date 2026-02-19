@@ -236,8 +236,14 @@ The analysis supports data-driven decision-making in areas such as marketing, in
 
 ## How to Use
 
-1. **Clone the Repository**
-   ```bash
+1. **Clone the Repository**: Clone this repository to your local machine.
+   ```sh
    git clone https://github.com/aniketghantewad04/Ecommerce-Sales-Analysis-SQL.git
+   ```
 
+2. **Set Up the Database**: Execute the SQL script `sales_analysis.sql` file to create and populate the database.
+3. **Insert Values**: Use the SQL script `insert_queries.sql` file to insert the records.
+4. **Run the Queries**: Use the SQL script `solution.sql` file to perform the analysis.
+Execute queries in MySQL Workbench or any SQL-compatible database tool.
 
+Thank you for your interest in this project!
