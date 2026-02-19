@@ -25,7 +25,13 @@ This project demonstrates the design and analysis of an E-Commerce database usin
 
 **Database Creation**  :
 Created an E-commerce database named `ecommerce_db` to simulate real-world online retail operations.
+```sql
+-- Create the database
+CREATE DATABASE ecommerce_db;
 
+-- Use the database
+USE ecommerce_db;
+```
 **Table Design**  :
 Designed and implemented normalized relational tables for:
 - Categories  
